@@ -1,0 +1,102 @@
+
+  }
+
+  .about__cards {
+    flex-direction: column;
+  }
+
+  .about__cards-wrapper {
+    width: 100%;
+  }
+
+  .about__cards-wrapper--big {
+    margin-bottom: 32px;
+  }
+
+  .about__text {
+    margin-bottom: 61px;
+  }
+
+  .card-big__content {
+    padding-left: 5.4%;
+    padding-right: 5.4%;
+  }
+
+  .about-card--bilder {
+    min-height: 640px;
+  }
+
+  .card-small {
+    padding-left: 34.1%;
+    background-position: 10% center;
+    background-size: 20.8%;
+  }
+
+  .card-small__text {
+    max-width: 450px;
+  }
+
+  .as-we-work__content::after {
+    background-image: url(../pictures/consultation-1024.jpg);
+  }
+
+  .index-footer-container {
+    justify-content: space-between;
+  }
+
+  .index-footer__right {
+    display: none;
+  }
+
+  .index-footer__left {
+    margin-right: 20px;
+  }
+
+  .index-footer__center {
+    margin-right: 0px;
+  }
+
+  .application-form__button {
+    padding-right: 37.5px;
+    padding-left: 37.5px;
+  }
+
+  .application-form__heading {
+    margin-bottom: 27px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .index-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .order {
+    padding-top: 0px;
+  }
+
+  .questions {
+    padding-bottom: 80px;
+  }
+
+  .as-we-work {
+    padding-top: 42px;
+  }
+
+  .order__wrapper {
+    padding: 160px 77px;
+    background-image: url(../pictures/project-solutions-back_1024.jpg);
+    background-position: 0% 50%;
+  }
+
+  .order__heading {
+    margin-bottom: 16px;
+    font-size: 60px;
+    line-height: 73px;
+  }
+
+  .order__description {
+    margin-bottom: 60px;
+    font-size: 20px;
+    line-height: 24.38px;
